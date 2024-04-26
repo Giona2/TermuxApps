@@ -13,3 +13,6 @@ mv $repodir/bin $configdir/tpm
 rm $repodir/README.md
 rm $repodir/setup.sh
 rm $repodir
+
+chmod +x $configdir/tpm/tpm
+$configdir/tpm/tpm
