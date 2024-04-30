@@ -1,7 +1,7 @@
 #!/bin/bash
 
 configdir=/home/$USER/.config
-repodir=/home/$USRE/TermuxApps
+repodir=/home/$USER/TermuxApps
 
 mkdir $configdir/tpm
 mkdir $configdir/tpm/config
