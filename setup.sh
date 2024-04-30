@@ -3,6 +3,7 @@
 configdir=/home/$USER/.config
 repodir=/home/$USER/TermuxApps
 
+mkdir $configdir
 mkdir $configdir/tpm
 mkdir $configdir/tpm/config
 
