@@ -5,11 +5,11 @@ repodir=/home/$USER/TermuxApps
 
 mkdir $configdir
 mkdir $configdir/tpm
-mkdir $configdir/tpm/config
 
 mv $repodir/tpm $configdir/tpm
 mv $repodir/about.toml $configdir/tpm
 mv $repodir/bin $configdir/tpm
+mv $repodir/config $configdir/tpm
 
 rm $repodir/README.md
 rm $repodir/setup.sh
